@@ -238,7 +238,7 @@ if(isset($del))
 					  <h5 style="color:red;">Grand total</h5>
 					  </td>
 					  <td>
-					  <h5><i class="fas fa-rupee-sign"></i>&nbsp;<?php echo end($gtotal); ?></h5>
+					  <h5><span  style="font-size:20px;" >Rs.</span>&nbsp;<?php echo end($gtotal); ?></h5>
 					  </td>
 					  <td>
 					  

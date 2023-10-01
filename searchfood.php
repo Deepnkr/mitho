@@ -249,7 +249,7 @@ ul li a:hover{text-decoration:none;}
 		                     <span style="font-family: 'Miriam Libre', sans-serif; font-size:18px;color:#CB202D;">
 		 <?php echo $res['fld_name']; ?></span><span style="color:black; margin-left:10px;"><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></span>
         </div>
-		 <div class="col-sm-2"><i class="fas fa-rupee-sign"></i><span style="color:green; font-size:20px;"> <?php echo $res['cost']; ?></span></div>
+		 <div class="col-sm-2"><span  style="font-size:20px;" >Rs.</span><span style="color:green; font-size:20px;"> <?php echo $res['cost']; ?></span></div>
 		 <form method="post">
 		 <div class="col-sm-2" style="text-align:left;padding:10px; font-size:15px;"><button type="submit" name="addtocart" value="<?php echo $fid; ?>")" ><span style="color:green;" <i class="fa fa-shopping-cart" aria-hidden="true"></i></span></button></div>
 		 </form>

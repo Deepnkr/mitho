@@ -189,8 +189,8 @@ ul li a:hover{text-decoration:none;}
 
 
 
-<div id="result" style="position:fixed;top:300; right:500;z-index: 3000;width:350px;background:white;"></div>
-<div id="resulthotel" style=" margin:0px auto; position:fixed; top:150px;right:750px; background:white;  z-index: 3000;"></div>
+<div id="result" style="position:fixed;top:80; right:350;z-index: 3000;width:350px;background:white;"></div>
+<div id="resulthotel" style=" margin:0px auto; position:fixed; top:80px;right:500px; background:white;  z-index: 3000;"></div>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
   
@@ -345,7 +345,7 @@ ul li a:hover{text-decoration:none;}
 		                     <a href="search.php?vendor_id=<?php echo $res['fldvendor_id']; ?>"><span style="font-family: 'Miriam Libre', sans-serif; font-size:28px;color:#CB202D;">
 		 <?php echo $res['fld_name']; ?></span></a>
         </div>
-		 <div class="col-sm-3"><i  style="font-size:20px;" class="fas fa-rupee-sign"></i>&nbsp;<span style="color:green; font-size:25px;"><?php echo $res['cost']; ?></span></div>
+		 <div class="col-sm-3"><span  style="font-size:20px;" >Rs.</span>&nbsp;<span style="color:green; font-size:25px;"><?php echo $res['cost']; ?></span></div>
 		 <form method="post">
 		 <div class="col-sm-2" style="text-align:left;padding:10px; font-size:25px;"><button type="submit" name="addtocart" value="<?php echo $res['food_id'];?>")" ><span style="color:green;" <i class="fa fa-shopping-cart" aria-hidden="true"></i></span></button></div>
 		 <form>
@@ -420,7 +420,7 @@ ul li a:hover{text-decoration:none;}
 		                                               <div class="col-sm-5">
 		                            <!--hotelname-->        <span style="font-family: 'Miriam Libre', sans-serif; font-size:28px;color:#CB202D;"><?php echo $res['fld_name']; ?></span>
                                                        </div>
-		                            <!--ruppee-->      <div class="col-sm-3"><i  style="font-size:20px;" class="fas fa-rupee-sign"></i>&nbsp;<span style="color:green; font-size:25px;"><?php echo $res['cost']; ?></span></div>
+		                            <!--ruppee-->      <div class="col-sm-3"><span  style="font-size:20px;" >Rs.</span>&nbsp;<span style="color:green; font-size:25px;"><?php echo $res['cost']; ?></span></div>
 									                   <form method="post">
 		                         <!--add to cart-->    <div class="col-sm-2" style="text-align:left;padding:10px; font-size:25px;"><button type="submit"  name="addtocart" value="<?php echo $res['food_id'];?>"><span style="color:green;"><i class="fa fa-shopping-cart" aria-hidden="true"></i></span></button></div>
 		                                               </form>
