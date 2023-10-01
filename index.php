@@ -194,7 +194,7 @@ ul li a:hover{text-decoration:none;}
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
   
-    <a class="navbar-brand" href="index.php"><img src="img/logo.png" height="75cm" width="75cm"><span style="color:purple;font-family: 'Permanent Marker', cursive;">Mitho Delivery "Joy in Food"</span>
+    <a class="navbar-brand" href="index.php"><img src="img/logo.png" height="60cm" width="75cm"><span style="color:purple;font-family: 'Permanent Marker', cursive;">Mitho Delivery "Joy in Food"</span>
 	</a>
     <?php
 	if(!empty($cust_id))
@@ -212,7 +212,7 @@ ul li a:hover{text-decoration:none;}
       <ul class="navbar-nav ml-auto">
         
 		<li class="nav-item"><!--hotel search-->
-		     <a href="#" class="nav-link"><form method="post"><input type="text" name="search_hotel" id="search_hotel" placeholder="Search Hotels " class="form-control " /></form></a>
+		     <a href="#" class="nav-link"><form method="post"><input type="text" name="search_hotel" id="search_hotel" placeholder="Search Restaurant " class="form-control " /></form></a>
 		  </li>
           <li class="nav-item">
 		     <a href="#" class="nav-link"><form method="post"><input type="text" name="search_text" id="search_text" placeholder="Search by Food Name " class="form-control " /></form></a>
@@ -315,10 +315,10 @@ ul li a:hover{text-decoration:none;}
     
     <div class="col-sm-6">
 	<div class="container-fluid">
-	 <img src="img/istockphoto-516324258-612x612.jpg" height="300px" width="100%">
+	 <img src="image/restaurant/MANDEL123@gmail.com/foodimages/shapu micha.jfif" height="300px" width="100%">
 	</div>
 	 <div class="container">
-	 <p style="font-family: 'Lobster', cursive; font-weight:light;  font-size:25px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+	 <p style="font-family: 'Lobster', cursive; font-weight:light;  font-size:25px;">This Item is our best seller of restaurant named Local Mandal Chapa Chee.Sapu Mhichā (Newar: सपू म्हिचा, lit. 'tripe bag') is a Nepalese dish of the Newa community, made up of buffalo leaf tripe stuffed with bone marrow. Sapu Mhichā is a special delicacy of the Newa cuisine of the Kathmandu Valley and is usually prepared during special occasions.The delicacy is one of the dishes served to honor a man when he goes to the home of his wife's parents for festival dinners. It is served after the main course and before dessert.</p>
 	 </div>
 	
 	</div>
@@ -457,11 +457,11 @@ ul li a:hover{text-decoration:none;}
 	   <!--main row 2 left right starts-->
 	   <div class="col-sm-6">
 	        <div class="container-fluid">
-	             <img src="img/pastaveg_640x480.jpg" height="300px" width="100%"><!--image-->
+	             <img src="image/restaurant/amit@gmail.com/foodimages/momo.jpg" height="300px" width="100%"><!--image-->
 	        </div>
 	        <div class="container">
 	        <!--paragraph content--> 
-	             <p style="font-family: 'Lobster', cursive; font-weight:light; font-size:25px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+	             <p style="font-family: 'Lobster', cursive; font-weight:light; font-size:25px;">This Item is also one of our TOP seller of Restaurant named Amit_XXX. Momos are a type of steamed filled dumpling in Tibetan and Nepali cuisine that is also popular in neighbouring Bhutan and India. Momos are usually served with a sauce known as achar influenced by the spices and herbs used within many South Asian cuisines. It can also be cooked as soup versions known as jhol momo where the broth is made from achar using a mixture of tomatoes, sesame seeds, chillies, cumin and coriander or mokthuk from boiling pork/buffalo bones mixed with various herbs and vegetables.</p>
 	        </div>
 	  </div>
 	   <!--main row 2 left right ends-->

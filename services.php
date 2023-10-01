@@ -133,7 +133,7 @@ ul li a:hover{text-decoration:none;}
 <!--navbar start-->
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
   
-    <a class="navbar-brand" href="index.php"><img src="img/logo.png" height="75cm" width="75cm"><span style="color:purple;font-family: 'Permanent Marker', cursive;">Mitho Delivery "Joy in Food"</span></a>
+    <a class="navbar-brand" href="index.php"><img src="img/logo.png" height="60cm" width="75cm"><span style="color:purple;font-family: 'Permanent Marker', cursive;">Mitho Delivery "Joy in Food"</span></a>
     <?php
 	if(!empty($cust_id))
 	{
