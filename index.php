@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="style.css">
 <?php
 session_start();
 
@@ -193,7 +194,8 @@ ul li a:hover{text-decoration:none;}
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
   
-    <a class="navbar-brand" href="index.php"><span style="color:green;font-family: 'Permanent Marker', cursive;">Food Hunt</span></a>
+    <a class="navbar-brand" href="index.php"><img src="img/logo.png" height="75cm" width="75cm"><span style="color:purple;font-family: 'Permanent Marker', cursive;">Mitho Delivery "Joy in Food"</span>
+	</a>
     <?php
 	if(!empty($cust_id))
 	{
@@ -266,24 +268,24 @@ ul li a:hover{text-decoration:none;}
   </ul>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="img/coffee_foam_beverage_cup_saucer_creative_continents_84944_1920x1080 (1).jpg" alt="Los Angeles" class="d-block w-100">
+      <img src="img/front1.1.jpg" alt="Nepali Food" class="d-block w-100">
       <div class="carousel-caption">
-        <h3>Los Angeles</h3>
-        <p>We had such a great time in LA!</p>
+        <h3 class="slider-header">Nepali Food</h3>
+        <p class="slider-discription">Local Newari Food</p>
       </div>   
     </div>
     <div class="carousel-item">
-      <img src="img/coffee_cup_saucer_grains_foam_73571_1920x1080.jpg" alt="Chicago" class="d-block w-100">
+      <img src="img/waow.jpg" alt="Chicago" class="d-block w-100">
       <div class="carousel-caption">
-        <h3>Chicago</h3>
-        <p>Thank you, Chicago!</p>
+        <h3 class="slider-header">Nepali Local</h3>
+        <p class="slider-discription">Super Tasty</p>
       </div>   
     </div>
     <div class="carousel-item">
-      <img src="img/coffee_foam_beverage_cup_saucer_creative_continents_84944_1920x1080 (1).jpg" alt="New York" class="d-block w-100">
+      <img src="img/khajaset.jpg" alt="New York" class="d-block w-100">
       <div class="carousel-caption">
-        <h3>New York</h3>
-        <p>We love the Big Apple!</p>
+        <h3 class="slider-header">Newari kaja set</h3>
+        <p class="slider-discription">Local Khaja set</p>
       </div>   
     </div>
   </div>

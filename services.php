@@ -133,7 +133,7 @@ ul li a:hover{text-decoration:none;}
 <!--navbar start-->
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
   
-    <a class="navbar-brand" href="index.php"><span style="color:green;font-family: 'Permanent Marker', cursive;">Food Hunt</span></a>
+    <a class="navbar-brand" href="index.php"><img src="img/logo.png" height="75cm" width="75cm"><span style="color:purple;font-family: 'Permanent Marker', cursive;">Mitho Delivery "Joy in Food"</span></a>
     <?php
 	if(!empty($cust_id))
 	{
@@ -203,7 +203,7 @@ ul li a:hover{text-decoration:none;}
     </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="img/Customer-Support.jpg" alt="First slide">
+      <img class="d-block w-100" src="img/2.jpg" alt="First slide">
     
 	</div>
     <div class="carousel-item">

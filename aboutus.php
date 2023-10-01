@@ -81,7 +81,7 @@ while($row=mysqli_fetch_array($query))
   -o-background-size: cover;
 	 }
   body{
-     background-image:url("img/main_spice2.jpg");
+     background-image:url("img/MOMO.jpg");
 	 background-repeat: no-repeat;
 	 background-attachment: fixed;
 	  background-position: center;
@@ -140,7 +140,7 @@ ul li {list-style:none;}
 <!--navbar ends-->
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
   
-    <a class="navbar-brand" href="index.php"><span style="color:green;font-family: 'Permanent Marker', cursive;">Food Hunt</span></a>
+    <a class="navbar-brand" href="index.php"><img src="img/logo.png" height="75cm" width="75cm"><span style="color:purple;font-family: 'Permanent Marker', cursive;">Mitho Delivery "Joy in Food"</span></a>
     <?php
 	if(!empty($cust_id))
 	{
@@ -202,26 +202,26 @@ ul li {list-style:none;}
 </nav>
 <!--navbar ends-->
 <br><br>
-<div class="container-fluid">
-  <img src="img/about.bmp" width='100%'/>
-</div>
+
 <br><br>
-<div class="container-fluid" style="background:black; opacity:0.30;">
-<h1 style="color:white; text-align:center; text-transform:uppercase;">we do this by</h1>
-<h3 style="color:white; text-align:center; text-transform:uppercase;">Helping people discover great places around them.</h3>
+<div class="container-fluid" style="background:black; opacity:0.70;">
+<h1 style="color:white; text-align:center; text-transform:uppercase;">we are here to</h1>
+<h3 style="color:white; text-align:center; text-transform:uppercase;">Help people disscover local food and resturant around the area.</h3>
 <p style="color:white; text-align:center; font-size:25px;">Our team gathers information from every restaurant on a regular basis to ensure our data is fresh. Our vast community of food lovers share their reviews and photos, so you have all that you need to make an informed choice.</p>
 
-<h3 style="color:white; text-align:center; text-transform:uppercase;">Building amazing experiences around dining.</h3>
-<p style="color:white; text-align:center; font-size:25px;">Starting with information for over 1 million restaurants (and counting) globally, we're making dining smoother and more enjoyable with services like online ordering and table reservations.</p>
+<h3 style="color:white; text-align:center; text-transform:uppercase;">Building amazing experiences.</h3>
+<p style="color:white; text-align:center; font-size:25px;">Starting with information of local small restaurants, we're making dining smoother and more enjoyable with services like online ordering and table reservations.</p>
 
-<h3 style="color:white; text-align:center; text-transform:uppercase;">Enabling restaurants to create amazing experiences.</h3>
+<h3 style="color:white; text-align:center; text-transform:uppercase;">Enabling All kind of restaurants to create amazing experiences.</h3>
 <p style="color:white; text-align:center; font-size:25px;">With dedicated engagement and management tools, we're enabling restaurants to spend more time focusing on food itself, which translates directly to better dining experiences.</p>
 </div>
 
 <br><br>
 <div class="container-fluid" style="background:white; text-transform:uppercase;padding:20px; border-left:10px solid black;"><h3>locate us</h3></div>
 <div class="container-fluid">
-<div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="304" id="gmap_canvas" src="https://maps.google.com/maps?q=hotel%20limontree&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.emojilib.com">emojilib.com</a></div><style>.mapouter{position:relative;text-align:right;height:304px;width:100%;}.gmap_canvas {overflow:hidden;background:none!important;height:304px;width:100%;}</style></div>
+<div class="mapouter"><div class="gmap_canvas">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3533.181744578463!2d85.32308987468603!3d27.680777126664218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19c795792897%3A0xd2064f344bb0abd!2sLalitpur%20Engineering%20College!5e0!3m2!1sen!2snp!4v1695819978469!5m2!1sen!2snp" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<a href="https://www.emojilib.com">emojilib.com</a></div><style>.mapouter{position:relative;text-align:right;height:304px;width:100%;}.gmap_canvas {overflow:hidden;background:none!important;height:304px;width:100%;}</style></div>
 </div>
 <br><br>
  <?php

@@ -141,7 +141,7 @@ ul li a:hover{text-decoration:none;}
 <!--navbar start-->
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
   
-    <a class="navbar-brand" href="index.php"><span style="color:green;font-family: 'Permanent Marker', cursive;">Food Hunt</span></a>
+    <a class="navbar-brand" href="index.php"><img src="img/logo.png" height="75cm" width="75cm"><span style="color:purple;font-family: 'Permanent Marker', cursive;">Mitho Delivery "Joy in Food"</span></a>
     <?php
 	if(!empty($cust_id))
 	{
@@ -202,7 +202,7 @@ ul li a:hover{text-decoration:none;}
 
 <br><br><br>
 <div class="container-fluid">
-  <img src="img/contact.bmp" width="100%">
+  <img src="img/momo2.jpg" width="100%">
 </div>
 <br>
 <div class="container">
@@ -228,8 +228,8 @@ ul li a:hover{text-decoration:none;}
 	</div>
     <div class="col-sm-4" style="padding:30px;">
 	   <div class="form-group">
-           <i class="fa fa-phone" aria-hidden="true"></i>&nbsp;<b>7503515386</b><br><br>
-			<i class="fa fa-home" aria-hidden="true"></i>&nbsp; 23-A ,North-East Campus,Kingsway,London Zip Code-2000411<br>(24*7 Days)
+           <i class="fa fa-phone" aria-hidden="true"></i>&nbsp;<b>01-550567</b><br><br>
+			<i class="fa fa-home" aria-hidden="true"></i>&nbsp; Lalitpur, Ward 12, Chakupat<br>(24*7 Days)
 	       
 	   </div>
 	</div>

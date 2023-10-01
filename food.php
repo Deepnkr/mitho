@@ -132,7 +132,7 @@ if(isset($upd_account))
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
   
-    <a class="navbar-brand" href="index.php"><span style="color:green;font-family: 'Permanent Marker', cursive;">Food Hunt</span></a>
+    <a class="navbar-brand" href="index.php"><span style="color:red;font-family: 'Permanent Marker', cursive;">Mitho Delivery "Joy in Food"</span></a>
     <?php
 	if(!empty($id))
 	{
